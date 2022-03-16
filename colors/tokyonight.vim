@@ -16,7 +16,7 @@ set background=dark
 let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 let s:tmux = executable('tmux') && $TMUX !=# ''
 
-let g:colors_name = 'tokyonight'
+let g:colors_name = 'seoulnight'
 " }}}
 " Configuration: {{{
 let s:configuration = {}
